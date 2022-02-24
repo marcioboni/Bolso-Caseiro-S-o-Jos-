@@ -1,0 +1,84 @@
+header {
+    background-color:white;
+}
+.bloco {
+    position: relative;
+    width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+.img-logo {
+    width: 900px;
+    height: 300px;
+}
+
+    nav {
+        position: absolute;
+        right: 0;
+        top: 115px;
+  }
+  
+  nav li {
+       display: inline;
+       margin-left: 15px;
+   
+  }
+
+  .img-bolos {
+    width: 200px;
+    height: 200px;
+}
+
+.lista-bolos {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+  .lista-bolos li {
+    display: inline-block;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+    vertical-align: top;
+    border: 3px solid black;
+    padding: 30PX 10px;
+    margin: 20px 1.5% ;
+    border-radius: 10px 20px;
+    box-sizing: border-box;  
+}
+.lista-bolos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.bolo-preco  {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+  .link {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      color: #7d2732;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+  }
+
+  footer {
+    text-align: center;
+    background-color: rgba(158, 95, 13, 0.938) ;
+}
+
+footer img {
+    margin-top: 25pix;
+}

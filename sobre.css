@@ -1,0 +1,86 @@
+header {
+    background-color:white;
+}
+.bloco {
+    position: relative;
+    width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+.img-logo {
+    width: 900px;
+    height: 300px;
+}
+
+    nav {
+        position: absolute;
+        right: 0;
+        top: 115px;
+  }
+  
+  nav li {
+       display: inline;
+       margin-left: 15px;
+   
+  }
+
+
+  .link {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      color: #7d2732;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+  }
+
+  /*conteudo*/
+  .img-bolo {
+      width: 100px;
+      height: 100px;
+      float: left;
+  }
+  .titulo-1 {
+      text-align: center;
+      margin: 0.5em 1em 0.5em 0;
+      font-size: 2em;
+      font-weight: bold;
+  }
+
+  .titulo-2 {
+      clear: left;
+      text-align: center;
+      margin: 00.5em 1em 0.5em 0;
+      font-size: 1.5em;
+      font-weight: bold;
+
+  }
+
+  .justificado {
+      text-align: justify;
+  }
+
+  .centralizado {
+      text-align: center;
+  }
+
+  .texto {
+      margin: 0.5em 0;
+      font-size: 1.5em;
+      
+  }
+
+
+  /*roda pé*/
+
+  footer {
+    text-align: center;
+    background-color: rgba(158, 95, 13, 0.938) ;
+}
+
+footer img {
+    margin-top: 25pix;
+}
